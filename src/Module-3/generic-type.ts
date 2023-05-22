@@ -39,3 +39,4 @@ interface IrelationWithSalaryInterface {
 
 const relationWithSalary: GenericTuple<IrelationWithSalaryInterface, string> = [{ name: 'alif', salary: 100000000 }, 'jennifer lawrence']
 
+

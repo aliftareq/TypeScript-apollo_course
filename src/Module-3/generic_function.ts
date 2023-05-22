@@ -36,19 +36,19 @@ const result7 = createArray2<userType, null>({ name: 'alif', age: 23, verificati
 /*---------use of spread operator-------------*/
 
 
-// const myInfo = {
-//     name: 'persian',
-//     age: 32,
-//     salary: 10000000,
-// }
+const myInfo1 = {
+    name: 'persian',
+    age: 32,
+    salary: 10000000,
+}
 
-// const createNewData = <T>(myInfo: T) => {
-//     const crush = "jennfer lawrence"
-//     const newData = { ...myInfo, crush }
-//     return newData
-// }
+const createNewData1 = <T>(myInfo: T) => {
+    const crush = "jennfer lawrence"
+    const newData = { ...myInfo, crush }
+    return newData
+}
 
-// const result8 = createNewData(myInfo)
+const result10 = createNewData(myInfo1)
 
-// result8.age
+result8.age
 
